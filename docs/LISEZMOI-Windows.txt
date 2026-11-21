@@ -1,0 +1,81 @@
+BROUILLON : installateur pour NumWorks n0120 (PC Windows)
+=========================================================
+
+Rien à installer : ni Python, ni pilote. Windows reconnaît la calculatrice
+tout seul.
+
+1. Décompresse le zip (clic droit > Extraire tout). Ne lance pas
+   l'installateur depuis l'intérieur du zip.
+
+2. Double-clic sur « Installer BROUILLON.exe ».
+   Si Windows affiche « Windows a protégé votre ordinateur » :
+   Informations complémentaires > Exécuter quand même.
+   Une fenêtre noire s'ouvre, puis la page de l'installateur dans ton
+   navigateur. Laisse la fenêtre noire ouverte ; ferme-la à la fin pour
+   quitter.
+
+3. Branche la calculatrice en USB et appuie sur Reset au dos :
+   elle redémarre sur le système officiel (slot A).
+
+4. Quand le voyant passe au vert, clique sur « Installer BROUILLON ».
+   Ne débranche pas la calculatrice pendant l'installation.
+
+Les jeux déjà dans le dossier games sont prêts à installer. Pour ajouter
+d'autres jeux .nwa depuis Windows, installe aussi la chaîne ARM
+(Arm GNU Toolchain, « arm-none-eabi », sur developer.arm.com), ou ajoute-les
+dans le dossier games/ de ta copie privée sur GitHub et relance la
+compilation.
+
+Si la page dit que la calculatrice est introuvable alors qu'elle est
+branchée : ferme les autres programmes qui l'utilisent (site de NumWorks,
+NumSocial, un autre installateur), essaie un autre câble ou un autre port USB,
+puis rappuie sur Reset.
+
+BROUILLON s'installe dans le slot B : le système officiel (slot A) n'est
+jamais modifié. Après un Reset, la calculatrice revient sur le système
+officiel ; il suffit de relancer l'installation pour retrouver BROUILLON.
+
+Les commandes de BROUILLON
+--------------------------
+
+Flèches ................ passer d'un dessin à l'autre ; au bord de la page,
+                         Kevin tourne la page (il s'accroche au coin)
+1 à 9 .................. aller directement à la page 1, 2, 3...
+OK ..................... ouvrir l'appli : Kevin plonge dedans, l'encre coule
+Boîte à outils ......... la trousse (9 trucs à faire en cours, voir plus bas)
+Effacer ................ BOUTON PANIQUE : la page se froisse, Calculs s'ouvre
+Retour ................. revenir à la première page
+x,n,t .................. chatouiller Kevin
+Var .................... gommer Kevin (il se redessine, vexé)
+Ans .................... Kevin danse
+0 ...................... Kevin commente le dessin choisi
++ / - .................. la luminosité (le néon de la classe)
+
+Ce qui se passe quand tu reviens d'une appli
+--------------------------------------------
+
+Kevin ressort du dessin, avec les conséquences : un serpent le poursuit en
+sortant de Python, il surfe sur une sinusoïde en sortant du Grapheur, il
+marche la tête en bas en sortant des Paramètres, il explose en sortant de
+Chimie, il se divise en clones de plus en plus petits en sortant des Suites,
+il est écrasé par un tampon "H0 REJETÉE" en sortant d'Inférence...
+Et si tu as fait des calculs : le prof les corrige au stylo rouge
+(essaie 6×7, 1+1, 6×111, 1/0, un nombre premier) et te met une note.
+
+La trousse (Boîte à outils)
+---------------------------
+
+Cocotte ........ la cocotte en papier : une couleur, un nombre, ton avenir
+Masque ......... garde une touche appuyée en parlant, la calculatrice
+                 devant ta bouche : elle parle avec toi. Chiffres : le visage
+                 (moustache, lunettes, vampire, clown, cyclope, robot...)
+Écran HS ....... FARCE : passe la calculatrice à ton voisin, l'écran se
+                 fissure et coule. Retour 3 fois pour "réparer".
+Duel ........... western à deux : touche 0 contre touche EXE, au "PAN !"
+                 (pas au "PAN... CAKE !")
+Punitions ...... Kevin copie tes lignes 100 fois à ta place
+Dessin ......... flèches pour dessiner, OK lève le stylo, Var : gomme,
+                 0 : tout effacer. Kevin marche sur tes traits.
+Avion .......... garde une touche appuyée pour monter, évite les crayons
+Morpion ........ contre Kevin. Il triche. Et s'il perd, il retourne la table.
+Réglages ....... LED, Kevin bavard, gommer ses graffitis, statistiques
